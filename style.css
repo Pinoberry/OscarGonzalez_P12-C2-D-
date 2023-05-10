@@ -1,0 +1,266 @@
+#principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: #fff;
+    background-image: linear-gradient(0deg
+        ,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+    url(img/Abejas1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#principal h1{
+    color: #fff;
+}
+
+#principal button{
+    font-size: 1.75em;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{font-size: 3.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 2em;}
+p{font-size: 1.25em;}
+ul{list-style: none;}
+li{font-size: 1.25em;}
+
+body{
+    font-family: 'Roboto','sans-serif';
+    margin: 0;
+}
+
+button{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0,0.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0,0.5);
+    color: #fff;
+    background-color: #433E3F;
+}
+
+
+button:hover{
+    background-color: #272324;
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+header{
+    background-color: #C0B7B1;
+}
+
+.color-acento{
+    color:#433E3F;
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: #433E3F;
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+
+header a:hover{
+    color: #272324;
+}
+
+#principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    color: #fff;
+    background-image: linear-gradient(0deg
+        ,rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+    url(img/Abejas2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: 3rem;
+}
+
+#principal h1{
+    color: #fff;
+}
+
+#principal button{
+    font-size: 1.75em;
+}
+
+
+#proyecto .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#nuestros-servicios .carta{
+    margin: 10px;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px ;
+}
+
+
+#nuestros-servicios{
+    background-color: rgb(30, 30, 30);
+    color: #fff;
+    text-align: center;
+}
+
+#nuestros-servicios .container{
+    padding: 150px 12px;
+}
+
+#nuestros-servicios h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#nuestros-servicios p{
+    display: none;
+}
+
+#nuestros-servicios .carta{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px ;
+}
+
+.carta:first-child{
+    background-image: linear-gradient(0deg
+        ,rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)),
+    url(img/Abejas1.jpg);
+}
+
+.carta:nth-child(2){
+    background-image: linear-gradient(0deg
+        ,rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)),
+    url(img/Abejas3.jpg);
+}
+
+
+.carta:nth-child(3){
+    background-image: linear-gradient(0deg
+        ,rgba(0, 0, 0, .5),rgba(0, 0, 0, .5)),
+    url(img/Abejas4.jpg);
+}
+
+
+#caracteristicas .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#caracteristicas li{
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+#caracteristicas .container{
+    text-align: initial;
+}
+
+#caracteristicas ul{
+    margin-left: 100px;
+}
+#caracteristicas{
+    background-image: url(img/Abejas5.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px 400px;
+    background-position: calc(100vw - 500px) 120px;
+}
+
+#final{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    color: #fff;
+    height: 80vh;
+}
+
+#final h2{
+    font-size: 6vw;
+}
+
+#final button{
+    font-size: 5vw;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: 2px solid rgba(0, 0, 0,.5);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0,.5);
+    color: #fff;
+    background-color: #433E3F;
+}
+
+#final button:hover{
+    background-color: #272324;
+}
+
+footer{
+    background-color: rgb(230, 230, 230);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100, 100, 100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+
